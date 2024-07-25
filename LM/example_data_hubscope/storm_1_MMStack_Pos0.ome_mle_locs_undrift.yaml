@@ -1,0 +1,251 @@
+Byte Order: <
+Camera: CellCam
+Data Type: uint16
+File: /camp/project/proj-czi-vp/raw/lm/EM04768_01_substrate_04/Sections/Section6/FOV2/storm_1/storm_1_MMStack_Pos0.ome.tif
+Frames: 10000
+Height: 434
+Micro-Manager Acquisiton Comments:
+- ''
+Micro-Manager Metadata:
+  Binning: 1
+  BitDepth: 12
+  COM12-AnswerTimeout: '500.0000'
+  COM12-BaudRate: '57600'
+  COM12-DTR: Disable
+  COM12-DataBits: '8'
+  COM12-DelayBetweenCharsMs: '0.0000'
+  COM12-Description: Serial port driver (boost:asio)
+  COM12-Fast USB to Serial: Disable
+  COM12-Handshaking: 'Off'
+  COM12-Name: COM12
+  COM12-Parity: None
+  COM12-StopBits: '2'
+  COM12-Verbose: '0'
+  COM13-AnswerTimeout: '500.0000'
+  COM13-BaudRate: '115200'
+  COM13-DTR: Disable
+  COM13-DataBits: '8'
+  COM13-DelayBetweenCharsMs: '0.0000'
+  COM13-Description: Serial port driver (boost:asio)
+  COM13-Fast USB to Serial: Disable
+  COM13-Handshaking: 'Off'
+  COM13-Name: COM13
+  COM13-Parity: None
+  COM13-StopBits: '1'
+  COM13-Verbose: '0'
+  Cairn Z Act-Acceleration: '320'
+  Cairn Z Act-Description: Motorised focus unit
+  Cairn Z Act-Escape Position: '50.0000'
+  Cairn Z Act-Focus Position: '4947.5000'
+  Cairn Z Act-Home: ''
+  Cairn Z Act-Home timeout (s): '30'
+  Cairn Z Act-Hysteresis Correction: '18'
+  Cairn Z Act-Move timeout (s): '10'
+  Cairn Z Act-Name: Cairn Z Act
+  Cairn Z Act-Port: COM13
+  Cairn Z Act-Remote Wheel Enabled: Enabled
+  Cairn Z Act-Speed: '780'
+  Camera: CellCam
+  CellCam-Allow Dropped Frames in MDA: 'No'
+  CellCam-Binning: '1'
+  CellCam-Binning Mode: Average
+  CellCam-Camera ID: CC2307111004454F0462720B014C475
+  CellCam-Continuous Snap: Enabled
+  CellCam-Conversion Gain: High Gain
+  CellCam-Fan Speed: '1'
+  CellCam-Format: 12-Bit
+  CellCam-Gain: '900'
+  CellCam-High Resolution Mode: Disabled
+  CellCam-Temperature (C): '20.0000'
+  CellCam-TransposeCorrection: '0'
+  CellCam-TransposeMirrorX: '0'
+  CellCam-TransposeMirrorY: '0'
+  CellCam-TransposeXY: '0'
+  CellCam-Trigger Mode: Internal
+  CellCam-USB Speed: '2'
+  CellCam-User Output 1 State: Low
+  CellCam-User Output 2 State: Low
+  ChannelIndex: 0
+  Core-AutoFocus: ''
+  Core-AutoShutter: '1'
+  Core-Camera: CellCam
+  Core-ChannelGroup: ''
+  Core-Focus: Cairn Z Act
+  Core-Galvo: ''
+  Core-ImageProcessor: ''
+  Core-Initialize: '1'
+  Core-SLM: ''
+  Core-Shutter: ''
+  Core-TimeoutMs: '5000'
+  Core-XYStage: XYStage
+  DObjective-Description: Demo objective turret driver
+  DObjective-HubID: ''
+  DObjective-Label: 100x_1.3_Amscope
+  DObjective-Name: DObjective
+  DObjective-State: '0'
+  DObjective-Trigger: '-'
+  ElapsedTime-ms: 129.0
+  Exposure-ms: 30.0
+  FileName: storm_1_MMStack_Pos0.ome.tif
+  Frame: 0
+  FrameIndex: 0
+  Height: 434
+  ImageNumber: 0
+  Laser_465-AutoDetectedOutputPort: Dev1/ao1
+  Laser_465-Block voltage: 'false'
+  Laser_465-Demo: 'No'
+  Laser_465-Description: NI DAC
+  Laser_465-IOChannel: Dev1/ao1
+  Laser_465-MaxVolts: '5.0000'
+  Laser_465-MinVolts: '0.0000'
+  Laser_465-Name: AnalogIO
+  Laser_465-Sequenceable: '1'
+  Laser_465-SupportsTriggering: '0'
+  Laser_465-TriggerInputLine: /Dev1/PFI0
+  Laser_465-TriggerSampleRate: '100000'
+  Laser_465-TriggerSequenceLength: '1000'
+  Laser_465-Volts: '1.0000'
+  PixelSizeAffine: -0.14867;0.00517;0.00517;-7.6E-4;-0.14167;0.0
+  PixelSizeUm: 0.1451
+  PixelType: GRAY16
+  PositionIndex: 0
+  PositionName: Default
+  ROI: 1736-1224-434-434
+  ReceivedTime: 2024-07-05 12:59:10.768 +0100
+  ScopeDataKeys:
+  - DObjective-Trigger
+  - CellCam-TransposeMirrorX
+  - Laser_465-AutoDetectedOutputPort
+  - CellCam-TransposeMirrorY
+  - Cairn Z Act-Description
+  - CellCam-Temperature (C)
+  - DObjective-Name
+  - COM13-Fast USB to Serial
+  - Laser_465-Volts
+  - DObjective-Description
+  - COM12-Fast USB to Serial
+  - Core-ImageProcessor
+  - Cairn Z Act-Name
+  - Core-SLM
+  - CellCam-Binning Mode
+  - COM12-Handshaking
+  - Laser_465-Sequenceable
+  - CellCam-Conversion Gain
+  - Cairn Z Act-Move timeout (s)
+  - Core-Focus
+  - Core-ChannelGroup
+  - COM13-Handshaking
+  - CellCam-Trigger Mode
+  - Cairn Z Act-Focus Position
+  - CellCam-USB Speed
+  - XYStage-Description
+  - Cairn Z Act-Hysteresis Correction
+  - Cairn Z Act-Speed
+  - XYStage-StepSizeY [um]
+  - Laser_465-Description
+  - Cairn Z Act-Escape Position
+  - Laser_465-MinVolts
+  - Core-XYStage
+  - Laser_465-IOChannel
+  - XYStage-StepSizeX [um]
+  - Core-AutoShutter
+  - XYStage-TransposeMirrorX
+  - XYStage-Backlash Y [um]
+  - Laser_465-Demo
+  - Laser_465-TriggerSequenceLength
+  - COM12-Description
+  - XYStage-TransposeMirrorY
+  - XYStage-Backlash X [um]
+  - XYStage-Port
+  - COM13-Description
+  - CellCam-Allow Dropped Frames in MDA
+  - COM13-StopBits
+  - Core-Camera
+  - COM12-StopBits
+  - COM12-DelayBetweenCharsMs
+  - Laser_465-TriggerSampleRate
+  - Laser_465-TriggerInputLine
+  - COM13-DelayBetweenCharsMs
+  - COM13-Name
+  - CellCam-Camera ID
+  - COM12-Name
+  - CellCam-TransposeCorrection
+  - COM12-DTR
+  - COM12-Verbose
+  - COM13-Parity
+  - CellCam-Format
+  - COM13-DTR
+  - COM12-AnswerTimeout
+  - Cairn Z Act-Home timeout (s)
+  - COM13-BaudRate
+  - COM13-Verbose
+  - COM12-Parity
+  - CellCam-User Output 1 State
+  - DObjective-HubID
+  - CellCam-User Output 2 State
+  - CellCam-High Resolution Mode
+  - Cairn Z Act-Home
+  - Laser_465-Name
+  - DObjective-State
+  - Core-TimeoutMs
+  - COM13-AnswerTimeout
+  - COM12-BaudRate
+  - CellCam-TransposeXY
+  - CellCam-Fan Speed
+  - Cairn Z Act-Acceleration
+  - COM13-DataBits
+  - Cairn Z Act-Port
+  - XYStage-Name
+  - COM12-DataBits
+  - XYStage-Acceleration X [m/s^2]
+  - CellCam-Binning
+  - CellCam-Continuous Snap
+  - Core-AutoFocus
+  - DObjective-Label
+  - Cairn Z Act-Remote Wheel Enabled
+  - XYStage-Acceleration Y [m/s^2]
+  - Laser_465-SupportsTriggering
+  - XYStage-SpeedY [mm/s]
+  - Laser_465-MaxVolts
+  - Core-Galvo
+  - XYStage-SpeedX [mm/s]
+  - Laser_465-Block voltage
+  - Core-Initialize
+  - CellCam-Gain
+  - Core-Shutter
+  Slice: 0
+  SliceIndex: 0
+  UUID: 8a611731-3571-4f14-842a-34cf9c995935
+  UserData: null
+  Width: 434
+  XPositionUm: 20774.099609375
+  XYStage-Acceleration X [m/s^2]: '0.2000'
+  XYStage-Acceleration Y [m/s^2]: '0.2000'
+  XYStage-Backlash X [um]: '0.0000'
+  XYStage-Backlash Y [um]: '0.0000'
+  XYStage-Description: Tango XY stage driver adapter
+  XYStage-Name: XYStage
+  XYStage-Port: COM12
+  XYStage-SpeedX [mm/s]: '10.0000'
+  XYStage-SpeedY [mm/s]: '10.0000'
+  XYStage-StepSizeX [um]: '0.0024'
+  XYStage-StepSizeY [um]: '0.0024'
+  XYStage-TransposeMirrorX: '0'
+  XYStage-TransposeMirrorY: '0'
+  YPositionUm: -2098.199951171875
+  ZPositionUm: 5028.700000000001
+Width: 434
+---
+Box Size: 11
+Convergence Criterion: 0.001
+Fit method: mle
+Generated by: Picasso Localize
+Max. Iterations: 1000
+Min. Net Gradient: 3000
+Pixelsize: 145
+ROI: null
+---
+Drift X: 0.2766965925693512
+Drift Y: -0.43000391125679016
+Generated by: Picasso Undrift
+Segmentation: 1000
