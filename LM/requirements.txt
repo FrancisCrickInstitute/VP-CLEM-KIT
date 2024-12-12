@@ -1,2 +1,4 @@
-picassosr
-nanopyx[jupyter]
+# Stable versions of the packages
+
+picassosr == 0.7.0
+nanopyx[jupyter] == 0.6.0 
