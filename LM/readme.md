@@ -63,3 +63,16 @@ pip install -r stable_packages.txt
 ```
 
 Using the stable versions should resolve most version-related issues.
+
+## Running the Jupyter Notebooks
+
+After installing the required packages, you can run the Jupyter notebooks as follows:
+
+1. **Activate your environment** (if not already active) using the instructions above.
+2. **Launch JupyterLab** by running one of the following commands:
+
+   ```bash
+   jupyter lab
+
+3. **Navigate to the project directory** in the Jupyter interface, where you'll find the notebooks (e.g., `filter_render_Win.ipynb` and `filter_render_macOS.ipynb`).
+4. **Open and run the notebook** you want to work with.
