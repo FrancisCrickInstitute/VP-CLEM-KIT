@@ -215,7 +215,7 @@ def extract_render_save(path, file_save, gui_filter_render, dataset_original, pi
     if do_density_filter:
         radius_filter = float(gui_filter_render["density_radius"].value)
         num_neighbours = int(gui_filter_render["density_num_neighbours"].value)
-        locs_filtered = density_filter(dataset_original, radius_filter, num_neighbours)
+        locs_filtered = density_filter(locs_filtered, radius_filter, num_neighbours)
 
     extract_histogram(path, file_save, locs_filtered, "_after filtering")
 
