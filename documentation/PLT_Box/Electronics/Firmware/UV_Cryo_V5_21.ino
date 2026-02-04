@@ -1,10 +1,11 @@
-// UV_Cryo_V5_20 — Milestone 5.20
+// UV_Cryo_V5_21 — Milestone 5.21
 // ESP32 WROOM (Arduino-ESP32 v3.x)
 //
 // What’s in here:
 // - I2C @ 100 kHz (SDA=23, SCL=22) driving OLED (0x3C) + VL53L0X (0x29)
 // - OLED info screen only (no splash), updates ≥ 1 Hz
 // - PWM on IO32 using LEDC @ 120 Hz; encoder adjusts duty immediately
+// - Cooler MOSFET on IO33 via MCP1416 gate driver; turned ON after boot
 // - Door interlock: if distance >= 1000 mm -> LED forced OFF (duty=0), restored below threshold
 // - Encoder A/B on IO35/IO34 (interrupt-driven quadrature), Button on IO14 (interrupt), toggles SD logging
 // - SPI (SCK=5, MISO=19, MOSI=18), CS: TC1=16, TC2=17, TC3=2, SD=4
@@ -38,6 +39,7 @@ const int I2C_SDA = 23, I2C_SCL = 22;
 const int SPI_SCK = 5, SPI_MISO = 19, SPI_MOSI = 18;
 const int TC_CS1 = 16, TC_CS2 = 17, TC_CS3 = 2, SD_CS = 4;
 const int ENC_A = 35, ENC_B = 34, ENC_BTN = 14;
+const int COOLER_PIN = 33;
 const int VL53_XSHUT_PIN = -1;  // -1 if tied HIGH
 
 // ---------------- I2C ----------------
@@ -679,6 +681,11 @@ void setup() {
   server.on("/data", handleData);
   server.on("/time", HTTP_POST, handleTime);
   server.begin();
+
+  // Cooler ON after all subsystems initialised
+  pinMode(COOLER_PIN, OUTPUT);
+  digitalWrite(COOLER_PIN, HIGH);
+  Serial.println("[COOLER] Cooler ON (GPIO33 HIGH).");
 
   // First reads + draw
   t1 = readTCFiltered(tc1); t2 = readTCFiltered(tc2); t3 = readTCFiltered(tc3);
